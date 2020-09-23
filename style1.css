@@ -1,0 +1,102 @@
+
+.postereyes{
+  background-image: url('eyesopenposter.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 950px;
+  margin-top: 40px;
+  margin-left: 170px;
+  margin-bottom: 40px;
+  width: 900px;
+  height: 1200px;
+  }
+  
+  a{
+    position: absolute;
+    color:hotpink;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+
+.text{ /*eyes open text*/
+    position: absolute;
+    margin: 0 auto;
+    top: 170px; /* Adjust this value to move the positioned div up and down */
+    left: 650px;
+    transform: translate(-50%,-50%);
+    width: 1000px; /* Set the width of the positioned div */
+    min-width: 1500px;
+    color: white;
+}
+
+.txtUpsideDown { /*eyes open upsidedown text*/
+   ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+      -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 40px;
+    top: 940px; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 1000px; /* Set the width of the positioned div */
+    min-width: 1500px;
+    color: rgb(255, 255, 255); 
+    }
+
+h1 {letter-spacing: 42px;
+text-align: center;
+font-size: 70px; font-family: candara;} 
+
+h2 {
+  position: absolute;
+  font-size: 15px;
+  font-family: candara; 
+  letter-spacing: 8px; 
+  top: 850px;
+  margin: 0 auto;
+  right: 15px;
+  color: rgb(255, 161, 161);
+  line-height: 1.5;
+  width: 1000px;
+  min-width: 1500px;
+  text-align: center;
+}
+h3{
+      -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 75px;
+    bottom: 225px; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 1000px; /* Set the width of the positioned div */
+    min-width: 1000px;
+    color: rgb(61, 20, 20); 
+    font-size: 24px;
+    font-family: candara;
+    letter-spacing: 21px;
+}
+h4{
+  position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0px;
+    right: 20px;
+    top: 1165px; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 1000px; /* Set the width of the positioned div */
+    min-width: 1500px;
+    color: rgb(61, 20, 20); 
+    font-size: 24px;
+    font-family: candara;
+    letter-spacing: 21px;
+}
+
+
