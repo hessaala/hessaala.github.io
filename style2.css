@@ -1,0 +1,20 @@
+body {
+    font-family: candara;
+}
+
+.logo {
+    font-family: candara;
+    background-image: url('eyesopenlogo.jpg');
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position-y: 2%;
+    }
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
+}
