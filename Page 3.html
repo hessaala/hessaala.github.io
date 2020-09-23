@@ -16,16 +16,14 @@
         <source src="30MFF.mp4" type="video/mp4">  
       </video> 
 
-<h1 style="font-family: candara; font-size: 5; text-align: center; color:rgb(138, 70, 70); font-style: italic;"> 
-    The ending is yours: 
-</h1> 
+<h1> The ending is yours: </h1> 
  
     <div class="radiogroup" style= float:left>
         <div class="wrapper1">
           <input class="state" type="radio" name="app" id="a" value="a" onclick="display()" >
           <label class="label" for="a">
             <div class="indicator"></div>
-            <span class="text">Thief surrenders</span>
+            <span class="text">Girls take control</span>
           </label>
         </div>
         <div class="wrapper2">
@@ -39,7 +37,7 @@
           <input class="state" type="radio" name="app" id="c" value="c" onclick="display()">
           <label class="label" for="c">
             <div class="indicator"></div>
-            <span class="text">It was all a prank</span>
+            <span class="text">It was a friend's prank</span>
           </label>
         </div>
         <div class="wrapper4">
@@ -56,32 +54,13 @@
     <br>
     <br>
       <div id="disp" style= 
-          "color:rgb(187, 155, 112); font-size:18px; font-weight:bold; font-family: candara; text-align: right;"> 
+          "color:rgb(48, 32, 11); font-size:18px; font-weight:bold; font-family: candara; text-align: right;"> 
       </div>  
     </div>
 </body>
 
 
-<script> 
+<script src="script.js"></script>
 
-  function display() {  
-      if(document.getElementById('a').checked) { 
-          document.getElementById("disp").innerHTML = "Your choice reflects you. You are awesome. You believe in women power."; 
-      } 
-      else if(document.getElementById('b').checked) { 
-          document.getElementById("disp").innerHTML = "Your choice reflects you. You are a quality over quantity person. You are cliche.";   
-      } 
-      else if(document.getElementById('c').checked) { 
-          document.getElementById("disp").innerHTML = "Your choice reflects you. You take everything in jokes. You like comedy";   
-      } 
-      else if(document.getElementById('d').checked) { 
-          document.getElementById("disp").innerHTML = "Your choice reflects you. You believe everything good will eventually happen.";   
-      } 
-      else { 
-          document.getElementById("disp").innerHTML 
-              = "Nothing was selected"; 
-      } 
-  } 
-</script> 
 
 </html>

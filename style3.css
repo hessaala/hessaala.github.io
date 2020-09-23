@@ -10,7 +10,11 @@
 
 h1 {
     text-align: center;
-
+    font-family: candara; 
+    font-size: 5; 
+    text-align: center; 
+    color:rgb(138, 70, 70); 
+    font-style: italic;
 }
   
   .radiogroup { /**the box of multiple choice**/
@@ -107,5 +111,6 @@ h1 {
   .label:hover .text {
     opacity: 1;
   }
+
 
 

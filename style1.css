@@ -13,13 +13,13 @@
   
   a{
     position: absolute;
-    color:hotpink;
+    color:rgb(255, 130, 130);
     text-decoration: none;
     font-size: 20px;
   }
 
   a:hover{
-    color: blue;
+    color: rgb(36, 145, 160);
     text-decoration: underline;
   }
   
