@@ -1,82 +1,82 @@
-
 .postereyes{
   background-image: url('eyesopenposter.jpg');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: 950px;
-  margin-top: 40px;
-  margin-left: 170px;
-  margin-bottom: 40px;
-  width: 900px;
+  width: 1000px;
   height: 1200px;
+  z-index: -10;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
   
-  a{
+a {
     position: absolute;
     color:rgb(255, 130, 130);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
+    transform:translate()
   }
 
+  #link1 {  margin-left: 25%;}
+
+  #link2 {  margin-left: 70%; }
+
+
   a:hover{
-    color: rgb(36, 145, 160);
+    color: white;
     text-decoration: underline;
   }
   
 
 .text{ /*eyes open text*/
-    position: absolute;
+   position: relative;
     margin: 0 auto;
-    top: 170px; /* Adjust this value to move the positioned div up and down */
-    left: 650px;
-    transform: translate(-50%,-50%);
-    width: 1000px; /* Set the width of the positioned div */
-    min-width: 1500px;
+    top: 80px;  /*Adjust this value to move the positioned div up and down*/ 
+    width: 100%; /* Set the width of the positioned div */
+    min-width: 1000px;
     color: white;
 }
 
 .txtUpsideDown { /*eyes open upsidedown text*/
-   ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
-      -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
-    position: absolute;
-    z-index: 999;
+    ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+   -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+    position: relative;
     margin: 0 auto;
-    right: 40px;
-    top: 940px; /* Adjust this value to move the positioned div up and down */
-    text-align: center;
-    width: 1000px; /* Set the width of the positioned div */
-    min-width: 1500px;
-    color: rgb(255, 255, 255); 
+    top: 750px; /* Adjust this value to move the positioned div up and down */
+    width: 100%; /* Set the width of the positioned div */
+    min-width: 1000px;
+    color: white; 
     }
 
-h1 {letter-spacing: 42px;
-text-align: center;
-font-size: 70px; font-family: candara;} 
+h1 {
+  letter-spacing: 42px;
+  text-align: center;
+  font-size: 70px; 
+  font-family: candara;} 
 
 h2 {
-  position: absolute;
+  position: relative;
   font-size: 15px;
   font-family: candara; 
   letter-spacing: 8px; 
-  top: 850px;
+  top: 480px;
   margin: 0 auto;
-  right: 15px;
   color: rgb(255, 161, 161);
   line-height: 1.5;
-  width: 1000px;
-  min-width: 1500px;
+  width: 100%;
+  min-width: 1000px;
   text-align: center;
 }
 h3{
-      -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
-    position: absolute;
-    z-index: 999;
+    -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+    position: relative;
     margin: 0 auto;
-    left:0px;
-    right: 75px;
-    bottom: 225px; /* Adjust this value to move the positioned div up and down */
+    bottom: 468px; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 1000px; /* Set the width of the positioned div */
+    width: 100%; /* Set the width of the positioned div */
     min-width: 1000px;
     color: rgb(61, 20, 20); 
     font-size: 24px;
@@ -84,18 +84,15 @@ h3{
     letter-spacing: 21px;
 }
 h4{
-  position: absolute;
-    z-index: 999;
+    position: relative;
     margin: 0 auto;
-    right: 20px;
-    top: 1165px; /* Adjust this value to move the positioned div up and down */
+    top: 735px; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 1000px; /* Set the width of the positioned div */
-    min-width: 1500px;
+    width: 100%; /* Set the width of the positioned div */
+    min-width: 1000px;
     color: rgb(61, 20, 20); 
     font-size: 24px;
     font-family: candara;
     letter-spacing: 21px;
 }
-
 
