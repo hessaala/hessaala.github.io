@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Film </title> 
+
+</head>
+<link rel="stylesheet" type="text/css" href="style3.css">
+
+<body>
+  <div class="logo">
+
+    <!--adding the video-->
+  
+  <center> 
+      <video width="940" height="530" controls>
+        <source src="30MFF.mp4" type="video/mp4">  
+      </video> 
+
+<h1> The ending is yours: </h1> 
+ 
+    <div class="radiogroup" style= float:left>
+        <div class="wrapper1">
+          <input class="state" type="radio" name="app" id="a" value="a" onclick="display()" >
+          <label class="label" for="a">
+            <div class="indicator"></div>
+            <span class="text">Girls take control</span>
+          </label>
+        </div>
+        <div class="wrapper2">
+          <input class="state" type="radio" name="app" id="b" value="b" onclick="display()">
+          <label class="label" for="b">
+            <div class="indicator"></div>
+            <span class="text">Thief prevails</span>
+          </label>
+        </div>
+        <div class="wrapper3">
+          <input class="state" type="radio" name="app" id="c" value="c" onclick="display()">
+          <label class="label" for="c">
+            <div class="indicator"></div>
+            <span class="text">It was a friend's prank</span>
+          </label>
+        </div>
+        <div class="wrapper4">
+          <input class="state" type="radio" name="app" id="d" value="d" onclick="display()">
+          <label class="label" for="d">
+            <div class="indicator"></div>
+            <span class="text">They become friends</span>
+          </label>
+        </div>
+      </div>
+
+      <br> 
+      <br>
+    <br>
+    <br>
+      <div id="disp" style= 
+          "color:rgb(48, 32, 11); font-size:18px; font-weight:bold; font-family: candara; text-align: right;"> 
+      </div>  
+    </div>
+</body>
+
+
+<script src="script.js"></script>
+
+
+</html>
