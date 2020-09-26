@@ -7,9 +7,9 @@
   height: 1200px;
   z-index: -10;
   position: absolute;
-  top: 110%;
+  top: 10px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   }
   
 a {
