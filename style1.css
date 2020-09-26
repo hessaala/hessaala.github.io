@@ -11,7 +11,12 @@
   transform: translate(-50%, 0%);
   }
   
-a {
+  .sticky {
+   position: sticky;
+   top: 40px;
+  }
+
+  a {
     position: absolute;
     color:rgb(255, 130, 130);
     text-decoration: none;
@@ -19,9 +24,11 @@ a {
     transform:translate()
   }
 
-  #link1 {  margin-left: 25%;}
 
-  #link2 {  margin-left: 70%; }
+  #link1 {  margin-left: 30%;}
+
+  #link2 {  margin-left: 63%;}
+
 
 
   a:hover{
@@ -69,23 +76,11 @@ h2 {
   min-width: 1000px;
   text-align: center;
 }
+
 h3{
-    -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
     position: relative;
     margin: 0 auto;
-    bottom: 468px; /* Adjust this value to move the positioned div up and down */
-    text-align: center;
-    width: 100%; /* Set the width of the positioned div */
-    min-width: 1000px;
-    color: rgb(61, 20, 20); 
-    font-size: 24px;
-    font-family: candara;
-    letter-spacing: 21px;
-}
-h4{
-    position: relative;
-    margin: 0 auto;
-    top: 735px; /* Adjust this value to move the positioned div up and down */
+    top: 765px; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     width: 100%; /* Set the width of the positioned div */
     min-width: 1000px;
