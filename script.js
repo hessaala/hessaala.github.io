@@ -12,3 +12,5 @@ function display() {
         document.getElementById("disp").innerHTML = "You seem to be entertained by happy endings, you tend to act with compassion and forgiveness.";   
     } 
 } 
+
+

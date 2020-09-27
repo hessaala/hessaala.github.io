@@ -2,13 +2,11 @@ body {
     font-family: candara;
 }
 
-.logo {
-    font-family: candara;
-    background-image: url('eyesopenlogo.jpg');
-    background-repeat: no-repeat;
-    background-size: 3%;
-    background-position-y: 2%;
-    }
+img {
+    position: absolute;
+    width: 35px;
+    padding: 10px;
+  }
 
 h1 {
     text-align: center;

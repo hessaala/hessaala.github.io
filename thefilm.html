@@ -7,15 +7,27 @@
 <link rel="stylesheet" type="text/css" href="style3.css">
 
 <body>
-  <div class="logo">
+  <div class= "splitscreen">
+    <div class= "left">
+  <a href="index.html"><img src ="mainpagelogo.jpg" title= "Home Page"></a>
+  <br>
+  <br>
+  <a href="aboutthefilm.html"><img src ="aboutpagelogo.jpg" title="About the Film"></a>
+  <br>
+  <br>
+  <img src= "filmpagelogo.jpg" title= "This Page"> 
+  </div>
+
   <center> 
-      <video width="75.5%" controls>
+    <div class= "right">
+      <video width= 75.5% controls>
         <source src="30MFF.mp4" type="video/mp4">  
       </video> 
+    </div> 
+    </div>
 
-<h1> The ending is yours: </h1> 
+    <h1> The ending is yours: </h1> 
  
-    <div class="radiogroup"> 
         <div class="wrapper1">
           <input class="state" type="radio" name="app" id="a" value="a" onclick="display()" >
           <label class="label" for="a">
@@ -44,13 +56,13 @@
             <span class="text">They become friends</span>
           </label>
         </div>
-      </div>
+     
 
     <br>
     <div class="dispstyle">
       <div id="disp"> &nbsp </div>  
       </div>
-
+</center>
 </body>
 
 <script src="script.js"></script>

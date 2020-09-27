@@ -10,31 +10,31 @@
   left: 50%;
   transform: translate(-50%, 0%);
   }
-  
-  .sticky {
-   position: sticky;
-   top: 40px;
-  }
 
   a {
-    position: absolute;
-    color:rgb(255, 130, 130);
+    position: relative;
     text-decoration: none;
     font-size: 25px;
-    transform:translate()
+    line-height: 190px;
+    top: 190px;
+    font-family: candara;
   }
 
 
-  #link1 {  margin-left: 30%;}
+  #link1 a{ margin-left: 30%;
+    color:rgb(128, 203, 226);
+  }
 
-  #link2 {  margin-left: 63%;}
+  #link2 a { margin-left: 30%;
+  color: rgb(211, 190, 1);}
 
-
-
-  a:hover{
+  #link1 a:hover{
     color: white;
-    text-decoration: underline;
-  }
+    font-style: italic;   }
+
+  #link2 a:hover{
+    color: white;
+    font-style: italic;  }
   
 
 .text{ /*eyes open text*/
@@ -51,7 +51,7 @@
    -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
     position: relative;
     margin: 0 auto;
-    top: 750px; /* Adjust this value to move the positioned div up and down */
+    top: 400px; /* Adjust this value to move the positioned div up and down */
     width: 100%; /* Set the width of the positioned div */
     min-width: 1000px;
     color: white; 
@@ -68,7 +68,7 @@ h2 {
   font-size: 15px;
   font-family: candara; 
   letter-spacing: 8px; 
-  top: 480px;
+  top: 150px;
   margin: 0 auto;
   color: rgb(255, 161, 161);
   line-height: 1.5;
@@ -80,7 +80,7 @@ h2 {
 h3{
     position: relative;
     margin: 0 auto;
-    top: 765px; /* Adjust this value to move the positioned div up and down */
+    top: 420px; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     width: 100%; /* Set the width of the positioned div */
     min-width: 1000px;
