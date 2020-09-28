@@ -1,10 +1,10 @@
-body {
+body { /*setting a style for the whole webpage*/
     font-family: candara;
 }
 
-img {
-    position: absolute;
-    width: 35px;
+img { /*styling the logo images*/
+    position: fixed; /*fixed while scrolling down*/
+    width: 35px; 
     padding: 10px;
   }
 
@@ -12,7 +12,7 @@ h1 {
     text-align: center;
 }
 
-h2
+h2 
 {
     text-align: center;
     font-style: italic;
@@ -22,7 +22,7 @@ h2
 }
 
 p{
-    margin-left: 200px;
-    margin-right: 200px;
-    line-height: 2;
+    margin-left: 200px; 
+    margin-right: 200px; /*centering paragraph text*/
+    line-height: 2; /*spacing for the text*/
 }

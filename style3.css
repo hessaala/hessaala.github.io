@@ -1,18 +1,18 @@
-img {
+img { /*styles for the eyes logo*/
   position: fixed;
-  width: 35px;
+  width: 35px; 
   padding: 10px;
 }
 
-.splitscreen {
+.splitscreen { /*for eyes logo and video to be side by side*/
   display: flex;
 }
 
-.splitscreen .left {
+.splitscreen .left { /*for eyes logo*/
   flex: 1;
 }
 
-.splitscreen .right {
+.splitscreen .right { /*for film video*/
   flex: 1;
 }
 
@@ -30,7 +30,7 @@ h1 {
     text-align: center;
   }
   
-  .state { /**the state of the choice**/
+  .state { /*the state of the choice*/
     position: absolute;
     top: 0;
     right:0;
@@ -38,7 +38,7 @@ h1 {
     pointer-events: none;
   }
   
-  .label { /** the text of the multiple choice**/
+  .label { /*the text of the multiple choice*/
     display: inline-flex;
     text-align: center;
     cursor: pointer;
@@ -51,7 +51,7 @@ h1 {
     transition: opacity .2s linear, transform .2s ease-out;
   }
   
-  .indicator { /**The 4 circles**/
+  .indicator { /*the 4 radio circles*/
     position: relative;
     border-radius: 50%;
     height: 30px;
@@ -62,7 +62,7 @@ h1 {
     overflow: hidden;
   }
   
-  .indicator::before,
+  .indicator::before, /*before & after user chooses*/
   .indicator::after {
     content: '';
     position: absolute;
@@ -73,13 +73,13 @@ h1 {
     border-radius: 50%;
   }
   
-  .indicator::before {
+  .indicator::before { /*before the user chooses an option*/
     box-shadow:
       -4px -2px 4px 0px rgb(148, 93, 93),
       4px 2px 8px 0px #fff;
   }
   
-  .indicator::after {
+  .indicator::after { /*after the user chooses an option*/
     background-color: #ecf0f3;
     box-shadow:
       -4px -2px 4px 0px rgb(255, 255, 255),
@@ -97,11 +97,11 @@ h1 {
     opacity: 1;
   }
   
-  .label:hover .text {
+  .label:hover .text { /*when user hovers on the text*/
     opacity: 1;
   }
 
-  .dispstyle {
+  .dispstyle { /*js text display*/
     color:rgb(48, 32, 11); 
     font-size:18px; 
     font-weight:bold; 
@@ -110,6 +110,6 @@ h1 {
     padding: 15px;
  }
 
- input{
+ input{ /*to make the page position fixed when user chooses an option*/
    visibility: hidden;
  }

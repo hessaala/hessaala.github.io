@@ -4,67 +4,63 @@
     <title> Film </title> 
 </head>
 
-<link rel="stylesheet" type="text/css" href="style3.css">
+<link rel="stylesheet" type="text/css" href="style3.css"> <!--referencing to css file-->
 
 <body>
-  <div class= "splitscreen">
+  <div class= "splitscreen"> 
     <div class= "left">
-  <a href="index.html"><img src ="mainpagelogo.jpg" title= "Home Page"></a>
-  <br>
-  <br>
-  <a href="aboutthefilm.html"><img src ="aboutpagelogo.jpg" title="About the Film"></a>
-  <br>
-  <br>
-  <img src= "filmpagelogo.jpg" title= "This Page"> 
-  </div>
-
-  <center> 
+      <a href="index.html"><img src ="mainpagelogo.jpg" title= "Home Page"></a> <!--referencing to 'Home' Page-->
+      <br>
+      <br>
+      <a href="aboutthefilm.html"><img src ="aboutpagelogo.jpg" title="About the Film"></a> <!--referencing to 'About' Page-->
+      <br>
+      <br>
+      <img src= "filmpagelogo.jpg" title= "This Page">  <!--inserting third eye logo-->
+      </div>
+    <center> 
     <div class= "right">
       <video width= 75.5% controls>
-        <source src="30MFF.mp4" type="video/mp4">  
+        <source src="30MFF.mp4" type="video/mp4">   <!--inserting the film video-->
       </video> 
     </div> 
-    </div>
+  </div>
 
+  <!--displaying radio choices & referencing to css styles-->
     <h1> The ending is yours: </h1> 
- 
-        <div class="wrapper1">
-          <input class="state" type="radio" name="app" id="a" value="a" onclick="display()" >
-          <label class="label" for="a">
-            <div class="indicator"></div>
-            <span class="text">Girls take control</span>
-          </label>
-        </div>
-        <div class="wrapper1">
-          <input class="state" type="radio" name="app" id="b" value="b" onclick="display()">
-          <label class="label" for="b">
-            <div class="indicator"></div>
-            <span class="text">Thief prevails</span>
-          </label>
-        </div>
-        <div class="wrapper1">
-          <input class="state" type="radio" name="app" id="c" value="c" onclick="display()">
-          <label class="label" for="c">
-            <div class="indicator"></div>
-            <span class="text">It was a friend's prank</span>
-          </label>
-        </div>
-        <div class="wrapper1">
-          <input class="state" type="radio" name="app" id="d" value="d" onclick="display()">
-          <label class="label" for="d">
-            <div class="indicator"></div>
-            <span class="text">They become friends</span>
-          </label>
-        </div>
-     
-
+    <div class="wrapper1">
+      <input class="state" type="radio" name="app" id="a" value="a" onclick="display()" >
+      <label class="label" for="a">
+        <div class="indicator"></div>
+        <span class="text">Girls take control</span>
+      </label>
+    </div>
+    <div class="wrapper1">
+      <input class="state" type="radio" name="app" id="b" value="b" onclick="display()">
+      <label class="label" for="b">
+        <div class="indicator"></div>
+        <span class="text">Thief prevails</span>
+      </label>
+    </div>
+    <div class="wrapper1">
+      <input class="state" type="radio" name="app" id="c" value="c" onclick="display()">
+      <label class="label" for="c">
+        <div class="indicator"></div>
+        <span class="text">It was a friend's prank</span>
+      </label>
+    </div>
+    <div class="wrapper1">
+      <input class="state" type="radio" name="app" id="d" value="d" onclick="display()">
+      <label class="label" for="d">
+        <div class="indicator"></div>
+        <span class="text">They become friends</span>
+      </label>
+    </div>
     <br>
-    <div class="dispstyle">
-      <div id="disp"> &nbsp </div>  
-      </div>
-</center>
+    <div class="dispstyle"> 
+      <div id="disp"> &nbsp </div>  <!--displaying js response-->
+    </div>
+  </center>
+
 </body>
-
 <script src="script.js"></script>
-
 </html>
