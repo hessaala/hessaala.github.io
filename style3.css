@@ -21,7 +21,7 @@ h1 {
     font-family: candara; 
     font-size: 5; 
     text-align: center; 
-    color:rgb(138, 70, 70); 
+    color:  rgb(212, 192, 9); 
     font-style: italic;
 }
   
@@ -75,7 +75,7 @@ h1 {
   
   .indicator::before { /*before the user chooses an option*/
     box-shadow:
-      -4px -2px 4px 0px rgb(148, 93, 93),
+      -4px -2px 4px 0px   rgb(212, 192, 9),
       4px 2px 8px 0px #fff;
   }
   
@@ -102,7 +102,7 @@ h1 {
   }
 
   .dispstyle { /*js text display*/
-    color:rgb(48, 32, 11); 
+    color:rgb(58, 44, 0); 
     font-size:18px; 
     font-weight:bold; 
     font-family: candara; 

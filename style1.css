@@ -16,7 +16,7 @@
     text-decoration: none;
     font-size: 25px;
     line-height: 190px;
-    top: 190px; /*adjusting this value to move up or down*/
+    top: 140px; /*adjusting this value to move up or down*/
     font-family: candara;
   }
 
@@ -25,7 +25,7 @@
   }
 
   #link2 a { margin-left: 30%; 
-  color: rgb(211, 190, 1);}
+  color: rgb(212, 192, 9);}
 
   #link1 a:hover{
     color: white;
@@ -39,7 +39,7 @@
 .text{ /*eyes open text*/
    position: relative;
     margin: 0 auto;
-    top: 80px;  /*adjusting this value to move the positioned div up and down*/ 
+    top: 75px;  /*adjusting this value to move the positioned div up and down*/ 
     width: 100%; /*setting the width of the positioned div */
     min-width: 1000px; /*setting minimum width for resizing the window*/
     color: white;
@@ -50,7 +50,7 @@
    -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
     position: relative;
     margin: 0 auto;
-    top: 400px; /* adjusting this value to move the positioned div up and down */
+    top: 370px; /* adjusting this value to move the positioned div up and down */
     width: 100%; /* setting the width of the positioned div */
     min-width: 1000px;  /*setting minimum width for resizing the window*/
     color: white; 
@@ -64,22 +64,22 @@ h1 { /*setting styles for header1*/
 
 h2 { /*setting styles for header2*/
   position: relative;
+  top: 120px; /*adjusting this value to move the positioned div up and down*/
+  width: 100%;
+  min-width: 1000px;  /*setting minimum width for resizing the window*/
+  line-height: 1.5;
+  margin: 0 auto;
   font-size: 15px;
   font-family: candara; 
   letter-spacing: 8px; 
-  top: 150px; /*adjusting this value to move the positioned div up and down*/
-  margin: 0 auto;
   color: rgb(255, 161, 161);
-  line-height: 1.5;
-  width: 100%;
-  min-width: 1000px;  /*setting minimum width for resizing the window*/
   text-align: center;
 }
 
 h3{ /*setting styles for header3*/
     position: relative;
     margin: 0 auto;
-    top: 420px; /* adjusting this value to move the positioned div up and down */
+    top: 370px; /* adjusting this value to move the positioned div up and down */
     text-align: center;
     width: 100%; /*setting the width of the positioned div */
     min-width: 1000px; /*setting minimum width for resizing the window*/
@@ -87,5 +87,18 @@ h3{ /*setting styles for header3*/
     font-size: 24px;
     font-family: candara;
     letter-spacing: 21px;
+}
+
+h4{
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+  top: 5px;
+  text-align: center;
+  font-family: candara;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 5px;
+  color:rgb(255, 161, 161); 
 }
 
