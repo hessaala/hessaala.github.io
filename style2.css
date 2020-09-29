@@ -24,5 +24,5 @@ h2
 p{
     margin-left: 200px; 
     margin-right: 200px; /*centering paragraph text*/
-    line-height: 2; /*spacing for the text*/
+    line-height: 1.9; /*spacing for the text*/
 }
