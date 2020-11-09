@@ -48,7 +48,7 @@ a.class1:link, a.class1:visited{
 
 a.class1:hover, a.class1:active{
   text-decoration: none;
-  font-style: italic;
+  font-style: bold;
   color: black;
 }
 
