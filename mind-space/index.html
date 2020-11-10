@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css2?family=Andika&display=swap" rel="stylesheet">
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
     <title>Mind Space</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -27,19 +28,20 @@
     <div class="wrapper centered">
       <article class="letter">
         <div class="side">
-          <textarea placeholder="Your letter" maxlength="280" ></textarea>
+          <textarea placeholder="Your letter" maxlength="270" ></textarea>
         </div>
         
         <div class="side">
-          <input type="text" maxlength="30">
+          <input type="text" placeholder="Your name" maxlength="20">
             <button id="sendLetter">Send</button>
         </div>
       </article>
       <div class="envelope front"></div>
       <div class="envelope back"></div>
     </div>
-    <p class="result-message centered">Thank you for your message</p>
-  
+    <p class="result-message centered">Thank you for your letter</p>
+    <div class="footer">
+        <h3><a href="#background" class="class3" onclick='reloadDIV ();'> write a new letter </h3></a>
   </div>
 </body>
 
