@@ -3,3 +3,8 @@ function addClass() {
   }
   
   sendLetter.addEventListener("click", addClass);
+
+ // function updateDiv()
+  //{ 
+    //  $( "#background3" ).load(window.location.href + " #background3" );
+  //}
