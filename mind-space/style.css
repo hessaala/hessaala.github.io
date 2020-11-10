@@ -1,10 +1,8 @@
 /* landing page */
 #background{
   background-image: url('lines1.png') ;
-  height: 600px;
+  height: 580px;
   min-height: 100%;
-  width: 1200px;
-  min-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,19 +56,14 @@ a.class1:hover, a.class1:active{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 580px;
   min-height: 100%;
-  width: 1200px;
-  min-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h2{
   font-family: 'Amatic SC', cursive;
   font-size: 40pt;
   text-align: center;
-  vertical-align: middle;
   line-height: 170px;
 }
 
@@ -85,14 +78,9 @@ a.class2:link, a.class2:visited, a.class2:hover, a.class2:active{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 580px;
   min-height: 100%;
-  width: 1200px;
-  min-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
-
 * {
   box-sizing: border-box; 
 }
