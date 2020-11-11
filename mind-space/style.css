@@ -12,7 +12,7 @@ html{
   scroll-behavior: smooth;
 }
 
-canvas{
+#background3 canvas{
   width: 100%;
   position:absolute;
   left:0;
@@ -82,6 +82,7 @@ a.class2:link, a.class2:visited, a.class2:hover, a.class2:active{
 
 /* letter page */
 #background3 {
+  position: relative;
   background-image: url('lines3.png') ;
   background-position: center;
   background-repeat: no-repeat;
