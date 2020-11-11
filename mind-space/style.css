@@ -23,7 +23,7 @@ h1{
   height: 250px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgb(147, 223, 253); 
+  background-color: rgb(180, 171, 199);
   opacity: 0.9; 
 }
 
@@ -242,7 +242,7 @@ textarea:focus {
   top: 17%;
   text-align: center;
   padding: 7.5px;
-  background-color: rgb(76, 102, 136);
+  background-color: rgb(180, 171, 199);
   opacity: 0;
   -webkit-transition: all 0.7s 3s;
   transition: all 0.7s 3s;
