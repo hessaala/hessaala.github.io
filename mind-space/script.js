@@ -10,4 +10,3 @@ function reloadDIV() {
       document.body.classList.add("sent");
   }
 
-  sendLetter.addEventListener("click", addClass);
