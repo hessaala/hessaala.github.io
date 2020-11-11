@@ -1,5 +1,7 @@
 function addClass() {
     document.body.classList.add("sent");
+    console.log("in add class function");
+
   }
   
   sendLetter.addEventListener("click", addClass);
