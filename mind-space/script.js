@@ -7,7 +7,7 @@ function addClass() {
   sendLetter.addEventListener("click", addClass);
 
 function removeClass() {
-  document.body.classList.remove("sent")
+  document.body.classList.remove("sent");
 }
 
 function reloadDIV() { 
