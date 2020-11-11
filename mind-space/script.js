@@ -5,5 +5,6 @@ function addClass() {
   sendLetter.addEventListener("click", addClass);
 
 function reloadDIV() { 
+      document.body.classList.remove("sent")
       $( "#background3" ).load(window.location.href + " #background3" );
   }
