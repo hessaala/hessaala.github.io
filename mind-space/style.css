@@ -12,6 +12,14 @@ html{
   scroll-behavior: smooth;
 }
 
+canvas{
+  width: 100%;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-1;
+}
+
 h1{
   font-family: 'Amatic SC', cursive;
   font-size: 40pt;
