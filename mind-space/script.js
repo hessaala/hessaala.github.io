@@ -10,5 +10,6 @@ function removeClass() {
 
 function reloadDIV() { 
       $( "#background3" ).load(window.location.href + " #background3" );
-  }
+      sendLetter.addClass();
+}
 
