@@ -248,7 +248,7 @@ textarea:focus {
   transition: all 0.7s 3s;
   -webkit-transform: translateY(26rem);
           transform: translateY(26rem);
-  z-index: -9999;
+  z-index: -0;
 } 
 h3{
   text-align: center;
