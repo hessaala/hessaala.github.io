@@ -296,7 +296,7 @@ a.class3:hover, a.class3:active{
             transform: translateY(12rem);
   }
 .sent .footer {
-  opacity: 1;
+  opacity: 0.9;
     -webkit-transform: translateY(21rem);
             transform: translateY(21rem);
 }
