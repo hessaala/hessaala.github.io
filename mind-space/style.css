@@ -239,22 +239,26 @@ textarea:focus {
 }
 .footer{
   position: relative;
-  top: 10%;
+  top: 17%;
   text-align: center;
-  padding: 10px;
+  padding: 7.5px;
   background-color: rgb(76, 102, 136);
   opacity: 0;
   -webkit-transition: all 0.7s 3s;
   transition: all 0.7s 3s;
   -webkit-transform: translateY(26rem);
           transform: translateY(26rem);
-  z-index: -0;
+  z-index: 0;
 } 
 h3{
+  overflow: hidden;
+  display: inline;
   text-align: center;
   font-family: 'Andika', sans-serif;
   font-size: 12pt;
   line-height: 130px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 a.class3:link, a.class3:visited{
   text-decoration: none;
@@ -302,6 +306,31 @@ a.class3:hover, a.class3:active{
   right: 0;
   margin: 1rem auto;
 }
+.learnmore {
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+.learnmore .learnmoretext {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgb(76, 149, 179);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 80%;
+  left: 60%;
+  margin-left: -60px;
+}
+
+.learnmore:hover .learnmoretext {
+  visibility: visible;
+}
+
 @-webkit-keyframes closeLetter {
    50% {-webkit-transform: rotateX(-90deg);transform: rotateX(-90deg);}
    100% {-webkit-transform: rotateX(-180deg);transform: rotateX(-180deg);}
