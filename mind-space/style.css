@@ -294,7 +294,7 @@ textarea:focus {
   top: 17%;
   text-align: center;
   padding: 7.5px;
-  background-color: rgb(180, 171, 199);
+  background-color: rgb(161, 118, 252);
   opacity: 0;
   -webkit-transition: all 0.7s 3s;
   transition: all 0.7s 3s;
