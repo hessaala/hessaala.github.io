@@ -11,8 +11,7 @@ function removeClass() {
 }
 
 function reloadDIV() { 
-     // $( "#background3" ).load(window.location.href + " #background3" );
-      $(".letter, .button, .envelope, .result-message").removeClass("sent"); 
+      $( "#background3" ).load(window.location.href + " #background3" );
     //     console.log("in reload div");
    //      window.location.href += "#background3";
    //      location.reload();
