@@ -84,8 +84,8 @@ a.class2:link, a.class2:visited, a.class2:hover, a.class2:active{
 /* arrow to letter */
 .arrow{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 10%;
     transform: translate(-50%,-50%);
 }
 .arrow span{
