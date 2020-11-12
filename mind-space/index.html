@@ -17,7 +17,7 @@
   <script>
     var intro = new Howl({
       src: ['assets/sounds/intro_v1.ogg'],
-        onplay: function() {
+      onplay: function() {
           var x = document.getElementById("downarrow");
           if(intro.seek() > 120){
             x.style.visibility = "visible";}
@@ -25,14 +25,13 @@
           
           else{
             x.style.visibility = "hidden";}
-          }
+       }
     });
     
     function hideTest() {
+    intro.play();
     var x = document.getElementById("message");
     x.style.visibility = "hidden";
-    intro.play();
-    
     }
     
     function showTest() {
