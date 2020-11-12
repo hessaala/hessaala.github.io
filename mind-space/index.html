@@ -18,10 +18,14 @@
     var intro = new Howl({
       src: ['assets/sounds/intro_v1.ogg'],
         onplay: function() {
-          if(intro.seek() > 120){
           var x = document.getElementById("downarrow");
-          x.style.visibility = "visible";}
-        }
+          if(intro.seek() > 120){
+            x.style.visibility = "visible";}
+          }
+          
+          else{
+            x.style.visibility = "hidden";}
+          }
     });
     
     function hideTest() {
@@ -32,7 +36,6 @@
     }
     
     function showTest() {
-    
     intro.stop();
     }
   </script>
@@ -49,13 +52,13 @@
   <div id="background2">
     <h2>Mind Space</h2>
     <h2> <a href="#background3" class="class2">An auditory letter writing experience</h2></a>
-        <a href="#background3">
+        <a href="#background3" onclick="showTest();">
         <div class="arrow" id="downarrow">
                 <span></span>
                 <span></span>
                 <span></span>
         </div>
-        <a href="whatever you want">
+        </a>
   </div>
 
     <div id="background3">
