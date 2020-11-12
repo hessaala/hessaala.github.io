@@ -278,16 +278,7 @@ a.class3:hover, a.class3:active{
   font-style: bold;
   color: black;
 }
-a.class4:link, a.class4:visited{
-  text-decoration: none;
-  color:white; 
-}
-a.class4:hover, a.class4:active{
-  text-decoration: underline;
-  font-style: bold;
-  color: black;
-  
-}
+
 .sent .letter {
     -webkit-animation: scaleLetter 1s forwards ease-in;
             animation: scaleLetter 1s forwards ease-in;
