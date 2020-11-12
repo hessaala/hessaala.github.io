@@ -21,11 +21,13 @@
           var x = document.getElementById("downarrow");
           if(intro.seek() > 120){
             x.style.visibility = "visible";}
-          }
-          
           else{
             x.style.visibility = "hidden";}
        }
+    });
+      
+      var outro = new Howl({
+      src: ['assets/sounds/outtro_v1.ogg']
     });
     
     function hideTest() {
@@ -36,6 +38,10 @@
     
     function showTest() {
     intro.stop();
+    }
+      
+    function finalTest() {
+    outro.play();
     }
   </script>
     
@@ -70,7 +76,7 @@
         
         <div class="side">
           <input type="text" placeholder="Your name" maxlength="20">
-            <button id="sendLetter">Send</button>
+            <button id="sendLetter" onclick="finalTest();>Send</button>
         </div>
       </article>
       <div class="envelope front"></div>
@@ -81,7 +87,7 @@
         <h3><a href="#background3" class="class3" onclick="removeClass (); reloadDIV ();"> write a new letter </h3></a>
         <div class="learnmore">
             <h3><a href="https://www.ispn-psych.org/international-links" class="class3">learn more</h3></a>
-            <span class="learnmoretext">Hi, if you are struggling, know that there are people willing to listen: Beyond Blue (1300 22 4636) 
+            <span class="learnmoretext">Hi, if you are struggling, know that there are always people willing to listen: Beyond Blue (1300 22 4636) 
              <br> Lifeline (13 11 14) <br> NYUAD (02 628 5555)</span>
         </div>
     </div>
