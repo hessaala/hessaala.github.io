@@ -1,158 +1,184 @@
 var keyData = {
 		q: {
 			sound: new Howl({
-	  		src: ['assets/sounds/c2.ogg']
+	  		src: ['assets/sounds/c2.ogg'],
+				volume: 0.4
 			}),
 			color: '#1abc9c'
 		},
 		w: {
 			sound: new Howl({
-	  		src: ['assets/sounds/e2.ogg']
+	  		src: ['assets/sounds/e2.ogg'],
+				volume: 0.4
 			}),
 			color: '#2ecc71'
 		},
 		e: {
 			sound: new Howl({
-	  			src: ['assets/sounds/g2.ogg']
+	  			src: ['assets/sounds/g2.ogg'],
+				volume: 0.4
 			}),
 			color: '#3498db'
 		},
 		r: {
 			sound: new Howl({
-	  			src: ['assets/sounds/c3.ogg']
+	  			src: ['assets/sounds/c3.ogg'],
+				volume: 0.4
 			}),
 			color: '#9b59b6'
 		},
 			t: {
 			sound: new Howl({
-	  			src: ['assets/sounds/e3.ogg']
+	  			src: ['assets/sounds/e3.ogg'],
+				volume: 0.4
 			}),
 			color: '#34495e'
 		},
 		y: {
 			sound: new Howl({
-	  			src: ['assets/sounds/g3.ogg']
+	  			src: ['assets/sounds/g3.ogg'],
+				volume: 0.4
 			}),
 			color: '#16a085'
 		},
 		u: {
 			sound: new Howl({
-	  			src: ['assets/sounds/c4.ogg']
+	  			src: ['assets/sounds/c4.ogg'],
+				volume: 0.4
 			}),
 			color: '#27ae60'
 		},
 		i: {
 			sound: new Howl({
-	  			src: ['assets/sounds/e4.ogg']
+	  			src: ['assets/sounds/e4.ogg'],
+				volume: 0.4
 			}),
 			color: '#2980b9'
 		},
 		o: {
 			sound: new Howl({
-				src: ['assets/sounds/g4.ogg']
+				src: ['assets/sounds/g4.ogg'],
+				volume: 0.4
 			}),
 			color: '#8e44ad'
 		},
 		p: {
 			sound: new Howl({
-	  			src: ['assets/sounds/c5.ogg']
+	  			src: ['assets/sounds/c5.ogg'],
+				volume: 0.4
 			}),
 			color: '#2c3e50'
 		},
 		a: {
 			sound: new Howl({
-	  			src: ['assets/sounds/e5.ogg']
+	  			src: ['assets/sounds/e5.ogg'],
+				volume: 0.4
 			}),
 			color: '#f1c40f'
 		},
 		s: {
 			sound: new Howl({
-	  			src: ['assets/sounds/g5.ogg']
+	  			src: ['assets/sounds/g5.ogg'],
+				volume: 0.4
 			}),
 			color: '#e67e22'
 		},
 			d: {
 			sound: new Howl({
-	  			src: ['assets/sounds/c6.ogg']
+	  			src: ['assets/sounds/c6.ogg'],
+				volume: 0.4
 			}),
 			color: '#e74c3c'
 		},
 		f: {
 			sound: new Howl({
-	  			src: ['assets/sounds/e6.ogg']
+	  			src: ['assets/sounds/e6.ogg'],
+				volume: 0.4
 			}),
 			color: '#95a5a6'
 		},
 		g: {
 			sound: new Howl({
-	  			src: ['assets/sounds/g6.ogg']
+	  			src: ['assets/sounds/g6.ogg'],
+				volume: 0.4
 			}),
 			color: '#f39c12'
 		},
 		h: {
 			sound: new Howl({
-	  			src: ['assets/sounds/c2.ogg']
+	  			src: ['assets/sounds/c2.ogg'],
+				volume: 0.4
 			}),
 			color: '#d35400'
 		},
 		j: {
 			sound: new Howl({
-	  			src: ['assets/sounds/e2.ogg']
+	  			src: ['assets/sounds/e2.ogg'],
+				volume: 0.4
 			}),
 			color: '#1abc9c'
 		},
 		
 		k: {
 			sound: new Howl({
-	  			src: ['assets/sounds/g2.ogg']
+	  			src: ['assets/sounds/g2.ogg'],
+				volume: 0.4
 			}),
 			color: '#2ecc71'
 		},
 		l: {
 			sound: new Howl({
-	  			src: ['assets/sounds/c3.ogg']
+	  			src: ['assets/sounds/c3.ogg'],
+				volume: 0.4
 			}),
 			color: '#3498db'
 		},
 		z: {
 			sound: new Howl({
-	  			src: ['assets/sounds/e3.ogg']
+	  			src: ['assets/sounds/e3.ogg'],
+				volume: 0.4
 			}),
 			color: '#9b59b6'
 		},
 		x: {
 			sound: new Howl({
-	  			src: ['assets/sounds/g3.ogg']
+	  			src: ['assets/sounds/g3.ogg'],
+				volume: 0.4
 			}),
 			color: '#34495e'
 		},
 		c: {
 			sound: new Howl({
-	  			src: ['assets/sounds/c4.ogg']
+	  			src: ['assets/sounds/c4.ogg'],
+				volume: 0.4
 			}),
 			color: '#16a085'
 		},
 		v: {
 			sound: new Howl({
-	  			src: ['assets/sounds/e4.ogg']
+	  			src: ['assets/sounds/e4.ogg'],
+				volume: 0.4
 			}),
 			color: '#27ae60'
 		},
 		b: {
 			sound: new Howl({
-	  			src: ['assets/sounds/g4.ogg']
+	  			src: ['assets/sounds/g4.ogg'],
+				volume: 0.4
 			}),
 			color: '#2980b9'
 		},
 		n: {
 			sound: new Howl({
-				src: ['assets/sounds/c5.ogg']
+				src: ['assets/sounds/c5.ogg'],
+				volume: 0.4
 			}),
 			color: '#8e44ad'
 		},
 		m: {
 			sound: new Howl({
-	  			src: ['assets/sounds/e5.ogg']
+	  			src: ['assets/sounds/e5.ogg'],
+				volume: 0.4
 			}),
 			color: '#2c3e50'
 		}
@@ -174,7 +200,7 @@ var keyData = {
 
 			var newCircle = new Path.Circle(point, 100);
 			newCircle.fillColor = keyData[event.key].color;
-			keyData[event.key].sound.volume(0.5);
+			
 			keyData[event.key].sound.play();
 			circles.push(newCircle);
 		}
