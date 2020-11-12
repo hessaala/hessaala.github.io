@@ -33,6 +33,7 @@ h1{
   margin-left: auto;
   background-color: rgb(180, 171, 199);
   opacity: 0.9; 
+  visibility: visible;
 }
 
 #message img {
