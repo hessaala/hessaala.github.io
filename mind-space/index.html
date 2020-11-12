@@ -14,12 +14,19 @@
 <body>
     
 <!--landing page-->
+  <script>
+    function hideTest() {
+    var x = document.getElementById("message");
+    x.style.display = "hidden";
+    } 
+  </script>
+    
   <div id="background">
     <h1> Mind Space </h1>
     <div id= "message"> 
       <img src="headphones.png" alt="headphones">
       <p>Use headphones for better experience</p>
-      <p><a href="#background2" class="class1"> OK </p></a>
+      <p><a href="#background2" class="class1" onclick="hideTest();"> OK </p></a>
     </div>
   </div>
 
