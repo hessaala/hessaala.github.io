@@ -11,9 +11,8 @@ function removeClass() {
 }
 
 function reloadDIV() { 
-      $( "#background3" ).load(window.location.href + " #background3" );
-    //     console.log("in reload div");
-   //      window.location.href += "#background3";
-   //      location.reload();
+         console.log("in reload div");
+         window.location.href += "#background3";
+         location.reload();
 }
 
