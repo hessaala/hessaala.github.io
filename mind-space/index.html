@@ -15,10 +15,16 @@
     
 <!--landing page-->
   <script>
+    var intro = new Howl({
+      src: ['assets/sounds/intro_v1.ogg']
+    });
+    
     function hideTest() {
     var x = document.getElementById("message");
-    x.style.display = "hidden";
-    } 
+    x.style.visibility = "hidden";
+    intro.play();
+    }
+      
   </script>
     
   <div id="background">
@@ -26,7 +32,7 @@
     <div id= "message"> 
       <img src="headphones.png" alt="headphones">
       <p>Use headphones for better experience</p>
-      <p><a href="#background2" class="class1" onclick="hideTest();"> OK </p></a>
+      <p><a href="#background2" class="class1" onclick="hideTest(); introTest();"> OK </p></a>
     </div>
   </div>
 
