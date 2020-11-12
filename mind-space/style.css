@@ -83,10 +83,12 @@ a.class2:link, a.class2:visited, a.class2:hover, a.class2:active{
 }
 
 /* arrow to letter */
+#downarrow{
+  position: absolute;
+  visibility: hidden;
+}
 
-.arrow{
-    position: absolute;
-    visibility: hidden; 
+.arrow{ 
     top: 70%;
     left: 10%;
     transform: translate(-50%,-50%);
