@@ -16,15 +16,25 @@
 <!--landing page-->
   <script>
     var intro = new Howl({
-      src: ['assets/sounds/intro_v1.ogg']
+      src: ['assets/sounds/intro_v1.ogg'],
+        onplay: function() {
+          if(intro.seek() > 120){
+          var x = document.getElementById("downarrow");
+          x.style.visibility = "visible";}
+        }
     });
     
     function hideTest() {
     var x = document.getElementById("message");
     x.style.visibility = "hidden";
     intro.play();
+    
     }
-      
+    
+    function showTest() {
+    
+    intro.stop();
+    }
   </script>
     
   <div id="background">
@@ -40,7 +50,7 @@
     <h2>Mind Space</h2>
     <h2> <a href="#background3" class="class2">An auditory letter writing experience</h2></a>
         <a href="#background3">
-        <div class="arrow">
+        <div class="arrow" id="downarrow">
                 <span></span>
                 <span></span>
                 <span></span>
