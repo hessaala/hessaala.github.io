@@ -174,6 +174,7 @@ var keyData = {
 
 			var newCircle = new Path.Circle(point, 100);
 			newCircle.fillColor = keyData[event.key].color;
+			keyData[event.key].sound.volume(0.5);
 			keyData[event.key].sound.play();
 			circles.push(newCircle);
 		}
