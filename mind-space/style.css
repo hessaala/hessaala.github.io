@@ -61,6 +61,7 @@ a.class1:hover, a.class1:active{
 
 /* main page */
 #background2{
+  position: relative;
   background-image: url('lines2.png') ;
   background-position: center;
   background-repeat: no-repeat;
