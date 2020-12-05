@@ -55,13 +55,25 @@
 </body>
 <script>
 function check() {
-    if (document.getElementById("1").checked){
-        document.video-list[1].checked=true;
 
-    }
-    else {
-        alert("none");
-    }
-}
+    var elements = document.getElementsByName('time-amount');
+    var radios = document.getElementsByName('video-list');
+  
+        if(elements.id="1"){
+            radios[1].checked = true;
+        }
+
+        if(elements.id="2"){
+            radios[2].checked = true;
+        }
+
+        if (elements.id="3"){
+            radios[3].checked = true;
+        }
+
+        if (elements.id="4"){
+            radios[4].checked = true;
+        }
+        }
 </script>
 </html>
