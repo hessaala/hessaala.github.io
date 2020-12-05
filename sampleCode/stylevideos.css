@@ -513,11 +513,6 @@ body {
     border: 2px solid #000;
     background: #fff;
     border-radius: 50%;
-    pointer-events: none;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
     z-index: 1;
     cursor: pointer;
     -webkit-transition: all 0.15s ease-in-out;
@@ -590,9 +585,7 @@ body {
     position: relative;
     margin: 56px auto 0;
     padding: 10px 20px;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
     font-family: inherit;
@@ -602,10 +595,7 @@ body {
     border: 2px solid #B29469;
     border-radius: 8px;
     outline: 0;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  
     cursor: pointer;
   }
   form + button:hover {
@@ -617,7 +607,6 @@ body {
     background: #B29469;
     border-color: #B29469;
     color: #fff;
-    pointer-events: none;
   }
   form + button:focus::before {
     -webkit-animation: spin 1s linear infinite;
@@ -625,7 +614,6 @@ body {
   }
   
   form:invalid + button {
-    pointer-events: none;
     opacity: 0.25;
   }
   
