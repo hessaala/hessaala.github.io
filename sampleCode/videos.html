@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stylevideos.css">
+
+</head>
+<body>
+    <div id="container2" name="container2">
+        <div class="shape"></div>
+          <div id="form-wrapper">
+            <form action="/p/quote.php" method="GET">
+              <h3>time for self care?</h3>
+              <div id="time-amount-slider">
+                <input type="radio" name="time-amount" id="1" value="1" required>
+                <label for="1" data-time-amount="<hour"></label>
+                <input type="radio" name="time-amount" id="2" value="2" required>
+                <label for="2" data-time-amount="2 hrs"></label>
+                <input type="radio" name="time-amount" id="3" value="3" required>
+                <label for="3" data-time-amount="a day"></label>
+                <input type="radio" name="time-amount" id="4" value="4" required>
+                <label for="4" data-time-amount="weekend+"></label>
+                
+              </div>
+            </form>
+            <button type="submit" onclick="check()">Go!</button>
+
+          </div>
+
+          
+          
+    <div class="grid-row reverse video-gallery">
+        <input type="radio" value="1" name="video-list" id="video-1" /><label for="video-1">Banana's 20 min routine</label>
+        <input type="radio" value="2" name="video-list" id="video-2" /><label for="video-2">Boot's 2 hr routine</label>
+        <input type="radio" value="3" name="video-list" id="video-3" /><label for="video-3">Clip's 1 day routine </label>
+        <input type="radio" value="4" name="video-list" id="video-4" /><label for="video-4">Mug's weekend routine</label>
+        
+        <!-- videos -->
+        <div class="video video-1">
+         <iframe src="https://player.vimeo.com/video/487517239?autopause=1&byline=0&portrait=0&title=0" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+        </div>
+       
+        <div class="video video-2">
+         <iframe src="https://player.vimeo.com/video/487517239?autopause=1&byline=0&portrait=0&title=0" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        </div>
+       
+        <div class="video video-3">
+         <iframe src="https://player.vimeo.com/video/487520339?autopause=1&byline=0&portrait=0&title=0" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        </div>
+       
+        <div class="video video-4">
+         <iframe src="https://player.vimeo.com/video/487517557?autopause=1&byline=0&portrait=0&title=0" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+       </div>
+</body>
+<script>
+function check() {
+    if (document.getElementById("1").checked){
+        document.video-list[1].checked=true;
+
+    }
+    else {
+        alert("none");
+    }
+}
+</script>
+</html>
