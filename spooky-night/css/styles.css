@@ -1,0 +1,678 @@
+rgb(57, 62, 70) rgb(236, 97, 10) rgb(28, 17, 36)
+
+.body
+{
+	font-family: 'Kalam', cursive;
+	font-size: 3rem;
+
+
+}
+
+.landing {
+  height: 100vh;
+  background-color: black;
+	font-family: 'Kalam', cursive;
+
+}
+
+.top-section {
+  height: 30%;
+  width: 100%;
+  background-color: blue;
+  display: block;
+  position: fixed;
+	/* font-family: 'Public Sans', sans-serif; */
+	font-family: 'Caveat Brush', cursive;
+
+
+}
+
+.top-section h3 {}
+
+.name {
+  color: white;
+  font-size: 4rem;
+  /* float: left; */
+  position: absolute;
+  left: 70px;
+  top: 50%;
+  height: 80px;
+  margin-top: -40px;
+  width: 100px;
+  text-align: right;
+	font-family: 'Freckle Face', cursive;
+
+}
+
+.heading {
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-left: -300px;
+  margin-top: 0;
+  padding: 0;
+  height: 100px;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+#first-line {
+  /* color: black; */
+  font-size: 3.5rem;
+  position: relative;
+  width: 500px;
+  margin: auto;
+	margin-top: -25px;
+}
+
+.intro {
+  position: relative;
+  font-size: 3rem;
+  width: 600px;
+  margin: auto;
+	margin-top: -15px;
+}
+
+.ghosts {
+  top: 20%;
+  left: 50%;
+  width: 200px;
+  position: absolute;
+  margin-left: -100px;
+}
+
+.bottom-section {
+  height: 80%;
+  width: 100%;
+	/* background-image: linear-gradient(to bottom, #c06c84, #843b62); */
+	position: fixed;
+  display: block;
+}
+
+.bottom-section .heading {
+  top: 30%;
+  font-size: 4rem;
+
+  /* position: relative; */
+}
+
+.bottom-section .halloween {
+  top: 30%;
+  font-size: 4rem;
+	font-family: 'Freckle Face', cursive;
+
+}
+
+.bottom-section .heading .intro {
+  margin-top: -100px;
+  font-size: 2rem;
+  position: relative;
+	width: 95%;
+}
+
+.bottom-section .heading h1 {
+	margin: -220px auto 0 auto;
+  font-size: 4.5rem;
+	width: 500px;
+}
+
+.bottom-section-inner {
+  width: 400px;
+  opacity: 0;
+  position: absolute;
+}
+
+#hall1 {
+  top: 6%;
+  left: 5%;
+  width: 100px;
+  position: absolute;
+  margin-left: -50px;
+  opacity: 0.5;
+  z-index: 11;
+}
+
+#hall2 {
+  top: 50%;
+  left: 5%;
+  width: 170px;
+  position: absolute;
+  margin-left: -100px;
+}
+
+#hall3 {
+  top: -100%;
+  left: 50%;
+  width: 300px;
+  position: absolute;
+  margin-left: -150px;
+}
+
+#hall4 {
+  width: 150px;
+  position: absolute;
+  margin-left: -75px;
+}
+
+.joke3 {
+  height: 100vh;
+}
+
+.joke3 .top-section {
+  height: 15%;
+  width: 100%;
+  /* background-color: orange; */
+  display: block;
+  position: fixed;
+	background-image: linear-gradient(to bottom, #4b125c , #23103a);
+}
+
+.joke3 .bottom-section {
+  height: 85%;
+  width: 100%;
+  /* background-color: #6c5b7c; */
+  display: block;
+  position: fixed;
+	background-image: linear-gradient(to bottom, #fda403, #ff6c00);
+}
+
+.joke4 {
+  height: 100vh;
+}
+
+.joke4 .top-section {
+  height: 15%;
+  width: 100%;
+  display: block;
+  position: fixed;
+}
+
+.joke4 .bottom-section {
+  height: 85%;
+  width: 100%;
+  display: block;
+  position: fixed;
+	background-image: linear-gradient(to bottom, #c06c84, #843b62);
+}
+
+.narration {
+  color: white;
+  text-align: center;
+  margin-left: -300px;
+  margin-top: -25px;
+  padding: 0;
+  height: 100px;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.narr {
+  position: relative;
+  font-size: 2.5rem;
+  width: 650px;
+  margin: auto;
+}
+
+.jokeholder
+{
+	height: 80%;
+	width: 65%;
+	position: relative;
+	background-color: #d2ebe9;
+	margin: auto;
+	top: 10%;
+}
+
+.taxi
+{
+	width: 400px;
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	margin-left: -200px;
+}
+
+.road
+{
+	width: 100%;
+	position: absolute;
+	margin-bottom: -100px;
+
+}
+
+.why
+{
+	width: 30%;
+	font-size: 6.5rem;
+	position: relative;
+	margin: auto;
+	color: white;
+	top: 50%;
+	font-family: 'Kalam', cursive;
+
+}
+
+.characters
+{
+	height: 200px;
+	position: absolute;
+	margin-left: 0;
+}
+
+.joke
+{
+  width: 250px;
+  margin-left: -125px;
+	z-index: 10;
+}
+
+.narr-inside
+{
+	text-align: center;
+	width: 40%;
+	font-size: 2.5rem;
+	position: relative;
+	margin: auto;
+	color: white;
+	top: 30%;
+	font-family: 'Kalam', cursive;
+
+}
+
+
+
+/*===================================================================*/
+/*SHREYA CODE*/
+
+.joke1Q
+{
+  height: 100vh;
+  width: 100%;/*
+  border: 1px solid black;*/
+  position: fixed;
+  /*top: 100%;*/
+  background-image: linear-gradient(to bottom, #FF7F50, #fda403);
+  /*background-color: #FF7F50;*/
+    /*background-size: cover;*/
+  /*font-family: 'Freckle Face', cursive;*/
+  font-family: 'Kalam', cursive;
+}
+
+.joke1A
+{
+  height: 100vh;
+  width: 100%;
+  /*background-image: url("Images/bg10.jpg");
+  background-size: cover;*/
+  background-image: linear-gradient(to bottom, #FF7F50, #fda403);
+  /*background-color: #FF7F50;*/
+  /*border: 1px solid black;*/
+  position: fixed;
+  /*top: 100%;*/
+  /*font-family: 'Freckle Face', cursive;*/
+  font-family: 'Kalam', cursive;
+}
+
+.joke2Q
+{
+  height: 100vh;
+  width: 100%;/*
+  border: 1px solid black;*/
+  position: fixed;
+  /*top: 100%;*/
+  /*background-color: #CF56A1;*/
+  background-image: linear-gradient(to bottom, #CF56A1, #843b62);
+    /*background-size: cover;*/
+  /*font-family: 'Freckle Face', cursive;*/
+  font-family: 'Kalam', cursive;
+}
+
+.joke2A
+{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #CF56A1, #843b62);
+  /*background-color: #CF56A1;*/
+  position: fixed;
+  /*font-family: 'Freckle Face', cursive;*/
+  font-family: 'Kalam', cursive;
+}
+
+/*======================================================*/
+
+.container
+{
+  width: 65%;
+  min-width: 700px;
+  height: 100vh;
+  /*border: 1px solid black;*/
+  font-size: 30pt;
+}
+
+.text1
+{
+  height: 10vh;
+  size: 30pt;
+  line-height: 10vh; 
+  /*border: 1px solid black;*/
+}
+
+.text2
+{
+  height: 15vh;
+  size: 30pt;
+  /*border: 1px solid black;*/
+  display: inline-block;
+  line-height: 15vh;
+}
+
+.comic_bg
+{
+  height: 75vh;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: white;
+  /*background-image: url("Images/haha.png");*/
+  /*background-size: cover;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+h2
+{
+  display: inline-block;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+.purple
+{
+  color: purple;
+}
+
+.red
+{
+  color: orange;
+}
+
+.bg_joke1Q
+{
+  width: 100%;
+  min-width: 700px;
+  position: relative;
+  top: 15%;
+}
+
+.bg_joke2Q
+{
+  width: 100%;
+  min-width: 700px;
+}
+
+/*.bg_joke2Q
+{
+  width: 100%;
+  min-width: 700px;
+  z-index: 3;
+  transform: translate(-100%, -100%);
+}*/
+
+.bg_joke1A
+{
+  width: 100%;
+  min-width: 700px;
+  position: relative;
+}
+
+.char1
+{
+  z-index: 2;
+  width: 9%;
+  min-width: 50px;
+  position: absolute;
+  left: 25%;
+}
+
+.char2
+{
+  z-index: 2;
+  width: 4%;
+  min-width: 50px;
+  position: absolute;
+  left: 70%;
+}
+
+
+.char3
+{
+  z-index: 2;
+  width: 4%;
+  min-width: 50px;
+  position: absolute;
+  left: 23%;
+}
+
+
+.char4
+{
+  z-index: 2;
+  width: 4%;
+  min-width: 50px;
+  position: absolute;
+  left: 65%;
+}
+
+.hr_glass
+{
+  z-index: 3;
+  /*width: 4.5%;*/
+  height: 15%;
+  min-height: 50px;
+  position: absolute;
+  top: 80%;
+  right: 5%;
+}
+
+
+/*======================================================*/
+/*RESTAURANT*/
+
+.chair1
+{
+  z-index: 2;
+  width: 15%;
+  min-width: 100px;
+  position: absolute;
+  top: 50%;
+}
+
+.chair2
+{
+  z-index: 2;
+  width: 15%;
+  min-width: 100px;
+  position: absolute;
+  left: 40%;
+}
+
+.chair3
+{
+  z-index: 2;
+  width: 10%;
+  min-width: 100px;
+  position: absolute;
+  left: 48%;
+}
+
+.chair4
+{
+  z-index: 2;
+  width: 22%;
+  min-width: 200px;
+  position: absolute;
+  left: 13%;
+}
+
+.stool1
+{
+  z-index: 2;
+  width: 22%;
+  min-width: 200px;
+  position: absolute;
+  bottom: 25%;
+}
+
+.stool2
+{
+  z-index: 2;
+  width: 22%;
+  min-width: 200px;
+  position: absolute;
+  right: 22%;
+}
+
+.banner
+{
+  z-index: 3;
+  width: 60%;
+  min-width: 300px;
+  position: absolute;
+  top: -17%;
+}
+
+/*=============================================================*/
+
+.ghost1
+{
+  position: fixed;
+  top: 25%;
+  left: 0%;
+  height: auto;
+  /*background-color: white;
+  border: 1px solid black;*/
+  z-index: 5;
+  /*overflow: hidden;*/
+}
+
+.ghost1 img
+{
+  width: 100%;
+  /*transform: translateX(-15%);*/
+}
+
+.ghost2
+{
+  position: fixed;
+  top: 25%;
+  right: 0%;
+  height: auto;
+  /*background-color: white;
+  border: 1px solid black;*/
+  z-index: 5;
+  /*overflow: hidden;*/
+}
+
+.ghost2 img
+{
+  width: 100%;
+  /*transform: translate(-15%, 5%);*/
+}
+
+.ghost1_width
+{
+  width: 17%;
+  min-width: 250px;
+}
+
+.ghost2_width
+{
+  width: 15%;
+  min-width: 250px;
+}
+
+/*================================================================*/
+/*ENDING*/
+
+.ending
+{
+  z-index: 10;
+  width: 50%;
+  height: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+.the_end
+{
+  width: 100%;
+  height: 30%;
+  padding-top: 5%;
+  font-family: 'Freckle Face', cursive;
+  font-size: 70pt;
+  color: orange;
+}
+
+.end_text
+{
+  width: 100%;
+  height: 70%;
+  color: white;
+  /*border: 1px solid black;*/
+  font-family: 'Caveat Brush', cursive;
+  font-size: 30pt;
+}
+
+hr
+{
+  width: 80%;
+  color: orange;
+  size: 5px;
+}
+
+/*================================================================*/
+/*DISCLAIMER*/
+
+.disc
+{
+  z-index: 10;
+  width: 50%;
+  height: 50vh;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+.disc_h
+{
+  width: 100%;
+  height: 20%;
+  padding-top: 5%;
+  font-family: 'Freckle Face', cursive;
+  /*font-family: 'Piazzolla', serif;*/
+  font-size: 40pt;
+  color: orange;
+}
+
+.disc_text
+{
+  width: 100%;
+  height: 80%;
+  color: white;
+  /*border: 1px solid black;*/
+  /*font-family: 'Commissioner', sans-serif;*/
+  font-family: 'Piazzolla', serif;
+  font-size: 17pt;
+  padding-top: 2.5%;
+}
+
