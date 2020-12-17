@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
 
 
@@ -13,26 +12,20 @@ body{
 }
 
 #github {
-    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    font-family: 'Tajawal', sans-serif; 
     position:absolute;
-    top:3%;
-    left:80%;
 }
 
 #mail {
-    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    font-family: 'Tajawal', sans-serif;  
     position:absolute;
-    top:3%;
-    left:90%;
     text-decoration: none;
     color:black;
 }
 
 #home {
-    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    font-family: 'Tajawal', sans-serif;  
     position:absolute;
-    top:3%;
-    left:70%;
     text-decoration: none;
     color:black;
 }
@@ -137,6 +130,23 @@ a{
         font-size:30px;
         left: 52%;
     }
+
+    #home, #github, #mail{
+        font-size: 22px ;
+        top:3%;
+    }
+
+    #home{
+        left:70%;
+    }
+
+    #mail{
+        left:80%;
+    }
+
+    #github{
+        left:90%;
+    }
   }
   
   @media screen and (max-width: 750px) {
@@ -152,6 +162,20 @@ a{
     span#created1, span#created2, span#created3, span#created4{
         font-size:35px;
         left: 60%;
+    }
+    #home, #github, #mail{
+        font-size: 18px ;
+    }
+    #home{
+        left:70%;
+    }
+
+    #mail{
+        left:80%;
+    }
+
+    #github{
+        left:88%;
     }
   }
 

@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
 body{
     background-image: url('background.png');
     background-repeat: no-repeat;
@@ -9,28 +9,22 @@ body{
 }
 
 #github {
-    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    font-family: 'Tajawal', sans-serif;    
     position:absolute;
-    top:3%;
-    left:80%;
     text-decoration: none;
     color:black;
 }
 
 #mail {
-    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    font-family: 'Tajawal', sans-serif;    
     position:absolute;
-    top:3%;
-    left:90%;
     text-decoration: none;
     color:black;
 }
 
 #projects {
-    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    font-family: 'Tajawal', sans-serif;   
     position:absolute;
-    top:3%;
-    left:70%;
     text-decoration: none;
     color:black;
 }
@@ -40,35 +34,24 @@ body{
 }
 
 #name{
-    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    font-family: 'Tajawal', sans-serif;    
     position:absolute;
-    top:20%;
-    left:2.5%;
     color:black;
 }
 
 #namearabic{
-    font-family: 'Tajawal', sans-serif;    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;   
     position:absolute;
-    top:12%;
-    left:4%;
     color:black;
 }
 
 #hi{
     font-family: 'Tajawal', sans-serif;    position:absolute;
-    top:35%;
-    left:20%;
-    font-size: 25px;
 }
 
 #about{
     font-family: 'Tajawal', sans-serif;    position:absolute;
     display:inline-block;
-    top:35%;
-    left:50%;
-    width:480px;
-    font-size: 22px;
 }
 
 img{
@@ -78,9 +61,94 @@ img{
     height:500px;
 }
 
+@media screen and (min-width: 800px){
+    #projects, #github, #mail{
+        font-size: 22px ;
+        top:3%;
+    }
+
+    #projects{
+        left:70%;
+    }
+
+    #mail{
+        left:80%;
+    }
+
+    #github{
+        left:90%;
+    }
+
+    #about{
+        top:35%;
+        left:50%;
+        width:480px;
+        font-size: 22px;
+    }
+
+    #hi{
+    top:35%;
+    left:20%;
+    font-size: 25px;
+    }
+
+    #name {
+        top:20%;
+        left:2.5%;
+        font-size: 22px;
+    }
+
+    #namearabic{
+        top:12%;
+        left:4%;
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 800px){
     img{
         width:358px;
         height:250px;
+    }
+
+    #projects, #github, #mail{
+        font-size: 18px ;
+    }
+
+    #projects{
+        left:66%;
+    }
+
+    #mail{
+        left:80%;
+    }
+
+    #github{
+        left:88%;
+    }
+
+    #about{
+        top:35%;
+        left:50%;
+        width:200px;
+        font-size: 17px;
+    }
+
+    #hi{
+        top:35%;
+        left:20%;
+        font-size: 20px;
+    }
+
+    #name {
+            top:20%;
+            left:2.5%;
+            font-size: 18px;
+    }
+
+    #namearabic{
+        top:12%;
+        left:4%;
+        font-size: 27px;
     }
 }
