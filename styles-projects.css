@@ -37,6 +37,10 @@ body{
     color:black;
 }
 
+#github:hover, #mail:hover, #home:hover{
+    border-bottom: 1px solid black;
+}
+
 span#content1, span#content2, span#content3, span#content4{
     display: none;
     font-family: 'Tajawal', sans-serif;    position:absolute;

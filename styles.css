@@ -35,6 +35,10 @@ body{
     color:black;
 }
 
+#github:hover, #mail:hover, #projects:hover{
+    border-bottom: 1px solid black;
+}
+
 #name{
     font-family: 'Tajawal', sans-serif;    font-size: 22px;
     position:absolute;
