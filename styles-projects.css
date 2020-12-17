@@ -112,12 +112,6 @@ h1{
     font-family: 'Big Shoulders Inline Text', cursive;
 }
 
-h2{
-    position:absolute;
-    display: inline-block;
-    top:40%;
-    font-family: 'Big Shoulders Inline Text', cursive;
-}
 
 a{
     color:black;
@@ -137,7 +131,7 @@ a{
     }
     span#created1, span#created2, span#created3, span#created4{
         font-size:30px;
-        left: 50%;
+        left: 52%;
     }
   }
   
