@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 1300px 600px;
+    background-color: rgb(252, 248, 241);
+}
+
+#github {
+    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    position:absolute;
+    top:3%;
+    left:80%;
+    text-decoration: none;
+    color:black;
+}
+
+#mail {
+    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    position:absolute;
+    top:3%;
+    left:90%;
+    text-decoration: none;
+    color:black;
+}
+
+#projects {
+    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    position:absolute;
+    top:3%;
+    left:70%;
+    text-decoration: none;
+    color:black;
+}
+
+#name{
+    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    position:absolute;
+    top:20%;
+    left:2.5%;
+    color:black;
+}
+
+#namearabic{
+    font-family: 'Tajawal', sans-serif;    font-size: 30px;
+    position:absolute;
+    top:12%;
+    left:4%;
+    color:black;
+}
+
+#hi{
+    font-family: 'Tajawal', sans-serif;    position:absolute;
+    top:35%;
+    left:20%;
+    font-size: 25px;
+}
+
+#about{
+    font-family: 'Tajawal', sans-serif;    position:absolute;
+    display:inline-block;
+    top:35%;
+    left:50%;
+    width:480px;
+    font-size: 22px;
+}
+
+img{
+    top:35%;
+    left:20%;
+    width:716px;
+    height:500px;
+}
+
+@media screen and (max-width: 800px){
+    img{
+        width:358px;
+        height:250px;
+    }
+}

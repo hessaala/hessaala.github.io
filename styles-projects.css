@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 1300px 600px;
+    background-color: rgb(252, 248, 241);
+    width:100%;
+}
+
+#github {
+    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    position:absolute;
+    top:3%;
+    left:80%;
+}
+
+#mail {
+    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    position:absolute;
+    top:3%;
+    left:90%;
+    text-decoration: none;
+    color:black;
+}
+
+#home {
+    font-family: 'Tajawal', sans-serif;    font-size: 22px;
+    position:absolute;
+    top:3%;
+    left:70%;
+    text-decoration: none;
+    color:black;
+}
+
+span#content1, span#content2, span#content3, span#content4{
+    display: none;
+    font-family: 'Tajawal', sans-serif;    position:absolute;
+    top:70%;
+    text-align: center;    
+}
+
+span#created1, span#created2 , span#created3 , span#created4 {
+    position:absolute;
+    display: none;
+    top:50%;
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+input#show1:hover ~ span#created1, input#show2:hover ~ span#created2, input#show3:hover ~ span#created3 , input#show4:hover ~ span#created4  {
+    display: inline-block;
+}
+
+input#show1:hover ~ span#content1, input#show2:hover ~ span#content2, input#show3:hover ~ span#content3, input#show4:hover ~ span#content4 {
+    display: block;
+}
+
+.img1{
+    width:5%;
+    left:15%;
+    top:15%;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    opacity:0.4;
+    
+}
+
+.img2{
+    width:10%;
+    left:30%;
+    top:15%;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    opacity:0.4;
+}
+
+.img3{
+    width:15%;
+    left:52%;
+    top:17%;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    opacity:0.4;
+}
+
+.img4{
+    width:15%;
+    left:75%;
+    top:17%;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    opacity:0.4;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover{
+    opacity:1;
+}
+
+h1{
+    position:absolute;
+    display: inline-block;
+    top:50%;
+    left:35%;
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+h2{
+    position:absolute;
+    display: inline-block;
+    top:40%;
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 800px) {
+    h1 {
+      font-size: 30px;
+      left:40%;
+    }
+    span#content1, span#content2, span#content3, span#content4{
+        font-size:22px;
+        left:25%;
+        width:550px;
+    }
+    span#created1, span#created2, span#created3, span#created4{
+        font-size:30px;
+        left: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    h1 {
+      font-size: 25px;
+      left:30%;
+    }
+    span#content1, span#content2, span#content3, span#content4{
+        font-size:15px;
+        width:350px;
+        left:20%;
+    }
+    span#created1, span#created2, span#created3, span#created4{
+        font-size:35px;
+        left: 60%;
+    }
+  }
+
+  
